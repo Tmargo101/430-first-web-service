@@ -9,10 +9,6 @@ const http = require('http');
 const url = require('url');
 const query = require('querystring');
 
-const car = {
-  make: "Ford",
-  make: "Ford"
-}
 // 3 - locally this will be 3000, on Heroku it will be assigned
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
