@@ -1,0 +1,18 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npm test"
+    },
+    "clean" : {
+      "enabled" : false,
+      "script" : "npm test"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "npm run nodemon\t"
+    }
+  },
+  "identifier" : "02A50861-C63D-4511-9A09-5947C4D1994F",
+  "openLogOnRun" : "start"
+}
